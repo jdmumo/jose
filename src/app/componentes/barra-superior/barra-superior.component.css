@@ -1,7 +1,6 @@
 *
 {
-    margin: 0;
-    padding: 0;
+    
 }
 #uno 
 {
@@ -21,5 +20,18 @@
 }
 .b-i-s
 {
-    padding: 5px;
+    /*padding: 5px;*/
+}
+
+.cont
+{
+    border: 1px solid blue;
+}
+.fila
+{
+    border: 1px solid red;
+}
+.colu
+{
+    border: 1px solid greenyellow;
 }
