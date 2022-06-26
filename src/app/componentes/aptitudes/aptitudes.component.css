@@ -1,0 +1,15 @@
+.caja
+{
+    background-color: #1b1f22;
+}
+.sub-caja > span
+{
+    display: inline;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: #535252;
+    height: 100%;
+    width: 100%;
+    font-size:larger;
+}
