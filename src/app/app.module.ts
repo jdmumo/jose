@@ -11,6 +11,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { PieComponent } from './componentes/pie/pie.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PieComponent } from './componentes/pie/pie.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
